@@ -7,6 +7,6 @@ cache:
 before_install:
   - cd client
 script:
-  - npm start & wait-on http://localhost:3000
+  - yarn start & wait-on http://localhost:3000
   - cypress run
 
