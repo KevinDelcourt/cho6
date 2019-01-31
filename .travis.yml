@@ -7,6 +7,4 @@ cache:
 before_install:
   - cd client
 script:
-  - cd client
-  - yarn
   - yarn test
