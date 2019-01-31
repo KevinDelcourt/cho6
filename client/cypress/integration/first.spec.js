@@ -13,5 +13,3 @@ describe('My First Test', function() {
       .should('have.value', 'fake@email.com')
       })
   })
-
-  var a = 2 +2
