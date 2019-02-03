@@ -13,7 +13,7 @@ script:
   - npm install
   - echo '{"host":"127.0.0.1","user":"root","database":"sho6"}' > db.json
   - node init_db.js
-  - node server.js & wait-on http://localhost:8180
   - cd ../client
+  - node ../server/server.js & wait-on http://localhost:8180
   - yarn start & wait-on http://localhost:3000
   - cypress run
