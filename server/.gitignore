@@ -7,10 +7,10 @@
 
 # testing
 /coverage
-/cypress/screenshots
 
 # production
 /build
+db.json
 
 # misc
 .DS_Store
