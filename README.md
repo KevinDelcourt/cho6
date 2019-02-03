@@ -1,6 +1,8 @@
 # cho6
 Application test pour le PTUT cho7
+
 Côté client -> application React, utilise styled-components + storybook + cypress pour les tests d'intégration
+
 Côté serveur -> node.js + express + mysql pour traiter les envois de formulaires / requêtes etc.
 
 Tout est testé par cypress (client + serveur)
